@@ -1,19 +1,22 @@
 @font-face {
   font-family: 'League Spartan';
+  font-style: normal;
   font-weight: 300;
-  src: url(https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap) format('woff2');
+  src: url('../fonts/LeagueSpartan-Thin.ttf') format('opentype');
 }
 
 @font-face {
   font-family: 'League Spartan';
+  font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.googleapis.com/css2?family=League+Spartan:wght@400&display=swap) format('woff2');
+  src: url('../fonts/LeagueSpartan-Regular.ttf') format('opentype');
 }
 
 @font-face {
   font-family: 'League Spartan';
+  font-style: normal;
   font-weight: 700;
-  src: url(https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap) format('woff2');
+  src: url('../fonts/LeagueSpartan-Bold.ttf') format('opentype');
 }
 
 html {
@@ -33,11 +36,6 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 ol, ul {
   list-style: none;
 }
-
-/* img {
-  max-width: 100%;
-  height: auto;
-} */
 
 body {
   font-family: 'League Spartan', sans-serif;
@@ -108,7 +106,7 @@ header {
   margin-top: -104px;
 }
 
-.populat-title {
+.popular-title {
   margin-top: 43px;
   text-align: center;
   font-size: 24px;
@@ -116,8 +114,71 @@ header {
 }
 
 .models-title {
+  margin-bottom: 84px;
   font-size: 72px;
   line-height: 81px;
   font-weight: 400;
   text-align: center;
+}
+
+.item-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-image-wrapper {
+  margin-bottom: 67px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 630px;
+  width: 417px;
+  background-color: #F8F8F8;
+}
+
+.item-title {
+  margin-bottom: 17px;
+  font-size: 32px;
+  line-height: 29px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.item-description {
+  margin-bottom: 85px;
+  font-size: 32px;
+  line-height: 50px;
+  font-weight: 300;
+  text-align: center;
+  width: 531px;
+}
+
+.product-description-wrapper {
+  margin: 0 auto;
+  width: 515px;
+  text-align: center;
+}
+
+.product-title {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.product-description-divider {
+  margin: 0 auto 49px;
+  width: 178px;
+  height: auto;
+  border: 1px solid #707070;
+}
+
+.product-description {
+  font-size: 24px;
+  line-height: 41px;
+}
+
+.product-description-link {
+  color: #BB8B5D;
+  font-weight: 700;
 }
